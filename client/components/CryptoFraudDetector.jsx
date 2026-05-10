@@ -52,7 +52,7 @@ const fields = [
     },
     {
         label: "Total Ether Received",
-        value: "total Ether received",
+        value: "total ether received",
         placeholder: "Example: 350",
         help: "Total ETH received by this wallet."
     },
@@ -217,7 +217,7 @@ export default function CryptoFraudDetector() {
                         <button
                             type="submit"
                             disabled={loading}
-                            className="mt-6 w-full rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold py-3 transition disabled:opacity-60"
+                            className="mt-6 w-full rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold py-3 transition disabled:opacity-60 cursor-pointer"
                         >
                             {loading ? "Analyzing..." : "Analyze Wallet"}
                         </button>

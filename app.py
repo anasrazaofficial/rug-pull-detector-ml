@@ -30,7 +30,7 @@ def predict():
         data["Unique Sent To Addresses"],
         data["avg val received"],
         data["avg val sent"],
-        data["total Ether received"],
+        data["total ether received"],
         data["total ether balance"]
     ]]
 
