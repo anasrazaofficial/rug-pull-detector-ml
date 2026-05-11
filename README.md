@@ -37,8 +37,6 @@ The system analyzes Ethereum transaction-based features and predicts whether a w
 
 - Random Forest Classifier
 
----
-
 ## Project Folder Structure
 
 ```txt
@@ -70,8 +68,6 @@ rug-pull-detector-ml/
 └── train-model.ipynb               # Model training notebook
 ```
 
----
-
 ## Prerequisites
 
 Before running the project, make sure you have installed:
@@ -93,8 +89,6 @@ Before running the project, make sure you have installed:
 git clone https://github.com/anasrazaofficial/rug-pull-detector-ml.git
 cd rug-pull-detector-ml
 ```
-
----
 
 ### 2. Backend Setup
 
@@ -123,8 +117,6 @@ The backend will start at:
 ```txt
 http://127.0.0.1:5000
 ```
-
----
 
 ### 3. Frontend Setup
 
