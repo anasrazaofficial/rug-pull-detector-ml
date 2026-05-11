@@ -1,7 +1,5 @@
 # Rug Pull Detector using Machine Learning
 
-## Short Description
-
 Rug Pull Detector using Machine Learning is a university-level ML project designed to detect suspicious cryptocurrency wallet behavior related to DeFi scam activity.  
 The system analyzes Ethereum transaction-based features and predicts whether a wallet is **Legit** or **Fraud/Suspicious**, along with a confidence/risk score.
 
