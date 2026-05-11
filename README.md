@@ -144,6 +144,34 @@ The frontend will start at:
 http://localhost:5173
 ```
 
+### 4. Model Retraining (Optional)
+
+A trained model is already included:
+
+```txt
+crypto_fraud_model.pkl
+````
+
+Retraining is optional. If you want to retrain the model, stop the Flask backend first, make sure the virtual environment is activated, then run:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```txt
+train-model.ipynb
+```
+
+Run all cells from top to bottom. The notebook will retrain the model and export the updated file:
+
+```txt
+crypto_fraud_model.pkl
+```
+
+Then restart the Flask backend.
+
 ## API Endpoints
 
 > Note: The prediction endpoint uses `POST` because the model requires JSON input data.
