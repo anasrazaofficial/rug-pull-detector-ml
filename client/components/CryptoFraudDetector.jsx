@@ -177,7 +177,7 @@ export default function CryptoFraudDetector() {
 
                                     {sampleWallets.map((wallet, index) => (
                                         <option key={index} value={index}>
-                                            Wallet #{index + 1} — {wallet.isLegit ? "Legit" : "Fraud"}
+                                            Wallet #{index + 1}
                                         </option>
                                     ))}
                                 </select>
